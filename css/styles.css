@@ -6,7 +6,7 @@ body{
 .header-block{
   width: 100%;
   margin: 0;
-  background-image: url('../images/222or.gif');
+  background-image: url('../images/222or.png');
   position: fixed;
   z-index: 101;
 }
@@ -21,7 +21,7 @@ body{
   background: #eee;
 }
 
-.header-block__item__link{
+.item-header-block__link{
   color: #222;
   padding: 5px 20px;
   text-decoration: none; 
@@ -88,7 +88,7 @@ body{
   pointer-events: auto; 
 }
 
-.inform__window2{
+.inform__secondwindow{
   width: 35%; 
   position: relative; 
   margin: 20% auto; 
@@ -98,7 +98,7 @@ body{
   box-shadow: 0px 0px 20px 2px; 
 }
 
-.window2-inform__close{
+.secondwindow-inform__close{
   background: #a50331;
   color: #ffffff; 
   line-height: 25px;
@@ -117,7 +117,7 @@ body{
   box-shadow: 1px 1px 3px #000; 
 }
 
-.window2-inform__close:hover{ 
+.secondwindow-inform__close:hover{ 
   background: #990000; 
 }
 
@@ -128,7 +128,7 @@ body{
   margin: 400px auto 500px 270px;
   font-weight: 650;
   font-stretch: semi-expanded;
-    color: #7a0625;
+  color: #7a0625;
 }
 
 .clear:after{
